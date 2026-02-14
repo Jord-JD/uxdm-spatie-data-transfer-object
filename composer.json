@@ -1,31 +1,39 @@
 {
-    "name": "divineomega/uxdm-spatie-data-transfer-object",
-    "description": "Spatie Data Transfer Object package for the UXDM data migrator",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require-dev": {
-        "phpunit/phpunit": "^7.0||^8.0",
-        "fzaninotto/faker": "^1.6",
-        "php-coveralls/php-coveralls": "^2.0"
-    },
-    "require": {
-        "divineomega/uxdm": "^3.0.0",
-        "spatie/data-transfer-object": "^1.9"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\uxdm\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DivineOmega\\uxdm\\TestClasses\\": "tests/Unit/includes/TestClasses/"
-        }
-    },
-    "license": "LGPL-3.0-only"
+  "name": "jord-jd/uxdm-spatie-data-transfer-object",
+  "description": "Spatie Data Transfer Object package for the UXDM data migrator",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^7.0||^8.0",
+    "fzaninotto/faker": "^1.6",
+    "php-coveralls/php-coveralls": "^2.0"
+  },
+  "require": {
+    "divineomega/uxdm": "^3.0.0",
+    "spatie/data-transfer-object": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\uxdm\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DivineOmega\\uxdm\\TestClasses\\": "tests/Unit/includes/TestClasses/"
+    }
+  },
+  "license": "LGPL-3.0-only",
+  "replace": {
+    "divineomega/uxdm-spatie-data-transfer-object": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }

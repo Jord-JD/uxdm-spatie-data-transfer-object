@@ -9,22 +9,23 @@
     }
   ],
   "require-dev": {
-    "phpunit/phpunit": "^7.0||^8.0",
-    "fzaninotto/faker": "^1.6",
+    "phpunit/phpunit": "^9.6",
+    "fakerphp/faker": "^1.23",
     "php-coveralls/php-coveralls": "^2.0"
   },
   "require": {
-    "divineomega/uxdm": "^3.0.0",
+    "php": "^7.4 || ^8.0",
+    "jord-jd/uxdm": "^6.0",
     "spatie/data-transfer-object": "^1.9"
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\uxdm\\": "src/"
+      "JordJD\\uxdm\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "DivineOmega\\uxdm\\TestClasses\\": "tests/Unit/includes/TestClasses/"
+      "JordJD\\uxdm\\TestClasses\\": "tests/Unit/includes/TestClasses/"
     }
   },
   "license": "LGPL-3.0-only",
@@ -33,7 +34,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
   }
 }

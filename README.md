@@ -7,7 +7,7 @@ The UXDM Spatie Data Transfer Object package provides a UXDM source and destinat
 that are created using the [Spatie Data Transfer Object package](https://github.com/spatie/data-transfer-object).
 
 If you have not used UXDM before to migrate your data, visit the 
-[UXDM GitHub repository](https://github.com/divineomega/uxdm) to learn more.
+[UXDM GitHub repository](https://github.com/Jord-JD/uxdm) to learn more.
 
 ## Installation
 

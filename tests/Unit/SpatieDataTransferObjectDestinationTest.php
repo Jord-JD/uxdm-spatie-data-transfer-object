@@ -1,12 +1,12 @@
 <?php
 
-use DivineOmega\uxdm\Objects\DataItem;
-use DivineOmega\uxdm\Objects\DataRow;
-use DivineOmega\uxdm\Objects\Destinations\EloquentDestination;
-use DivineOmega\uxdm\Objects\Destinations\SpatieDataTransferObjectDestination;
-use DivineOmega\uxdm\TestClasses\Eloquent\User;
-use DivineOmega\uxdm\TestClasses\SpatieDataTransferObject\UserDTO;
-use DivineOmega\uxdm\TestClasses\SpatieDataTransferObject\UserDTOCollection;
+use JordJD\uxdm\Objects\DataItem;
+use JordJD\uxdm\Objects\DataRow;
+use JordJD\uxdm\Objects\Destinations\EloquentDestination;
+use JordJD\uxdm\Objects\Destinations\SpatieDataTransferObjectDestination;
+use JordJD\uxdm\TestClasses\Eloquent\User;
+use JordJD\uxdm\TestClasses\SpatieDataTransferObject\UserDTO;
+use JordJD\uxdm\TestClasses\SpatieDataTransferObject\UserDTOCollection;
 use PHPUnit\Framework\TestCase;
 
 final class SpatieDataTransferObjectDestinationTest extends TestCase

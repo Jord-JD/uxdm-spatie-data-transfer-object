@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\uxdm\TestClasses\SpatieDataTransferObject;
+namespace JordJD\uxdm\TestClasses\SpatieDataTransferObject;
 
 use Spatie\DataTransferObject\DataTransferObject;
 

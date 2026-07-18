@@ -1,7 +1,9 @@
 # 🔀 UXDM Spatie Data Transfer Object
 
-[![Build Status](https://travis-ci.com/Jord-JD/uxdm-spatie-data-transfer-object.svg?branch=master)](https://travis-ci.com/Jord-JD/uxdm-spatie-data-transfer-object)
-[![Coverage Status](https://coveralls.io/repos/github/Jord-JD/uxdm-spatie-data-transfer-object/badge.svg?branch=master)](https://coveralls.io/github/Jord-JD/uxdm-spatie-data-transfer-object?branch=master)
+> [!WARNING]
+> This integration is retired because `spatie/data-transfer-object` is abandoned. Existing releases remain available for legacy projects, but should not be added to new applications.
+>
+> For new work, use UXDM's associative-array source/destination at the integration boundary, or build a small adapter for a maintained data-object library such as `spatie/laravel-data` or `cuyz/valinor`.
 
 The UXDM Spatie Data Transfer Object package provides a UXDM source and destination for Data Transfer Objects
 that are created using the [Spatie Data Transfer Object package](https://github.com/spatie/data-transfer-object).
